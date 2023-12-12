@@ -3305,7 +3305,10 @@ h6 {
 
 @media (max-width: 991px) {
   .about_area .about_img {
-    display: none;
+    margin-bottom: 20px;
+    position: relative;
+    right: 0;
+    /* display: none; */
   }
 }
 
@@ -4502,7 +4505,8 @@ h6 {
   line-height: 1.2;
   color: #fff;
 }
- .colorlib-navbar-brand .colorlib-logo:hover {
+
+.colorlib-navbar-brand .colorlib-logo:hover {
   text-decoration: none !important;
   background-color: #854fee;
   border: 1px solid #854fee;
